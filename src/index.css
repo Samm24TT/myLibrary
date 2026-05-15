@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-primary: var(--color-indigo-600);
+}
