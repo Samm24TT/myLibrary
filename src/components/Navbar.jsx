@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <nav className="border border-b">
-      <ul className="flex justify-around items-center p-3 max-w-6xl mx-auto">
+      <ul className="flex justify-between items-center p-3 max-w-6xl mx-auto">
         <li className="flex items-center gap-3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
