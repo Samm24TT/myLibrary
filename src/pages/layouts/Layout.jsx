@@ -7,7 +7,7 @@ import "./styles.css";
 
 export default function Layout() {
   const location = useLocation();
-  console.log(location.pathname);
+
   const nodeRef = useRef(null);
   return (
     <div>
